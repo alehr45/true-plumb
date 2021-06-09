@@ -1,5 +1,6 @@
 import React from "react";
 import { Image, Button, Carousel } from "react-bootstrap";
+import { SocialIcon } from 'react-social-icons';
 import logo from "../images/logo1.png";
 import pic1 from "../images/trueplumb-image1.jpeg";
 import pic2 from "../images/trueplumb-image2.jpeg";
@@ -25,10 +26,16 @@ function Home() {
           Licensed, experienced, locally owned and trusted.
         </h5>
         <h5 className="info1">Free estimates.</h5>
+        <div>
+        <SocialIcon className="social" url="https://www.facebook.com/trueplumb.tn" />
+        <SocialIcon className="social" url="https://instagram.com/true.plumb?utm_medium=copy_link" />
+        </div>
        
         <Button className="callnow" variant="success" href="tel:+1-423-305-8212">
           Book an Appointment
         </Button>{" "}
+       
+        
       </div>
       <Carousel className="carousel">
         <Carousel.Item>
@@ -82,7 +89,6 @@ function Home() {
     <h5 className="services">Services Available</h5>
     <ul className="serviceslist">
       <li>Toilet Repair</li>
-      <li>Drain cleaning</li>
       <li>Shower Repair</li>
       <li>Tankless Water Heaters Installation/Repair</li>
       <li>Water Heater Tank Repair/Replacement</li>
