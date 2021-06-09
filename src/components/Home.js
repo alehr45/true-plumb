@@ -29,6 +29,7 @@ function Home() {
         <div>
         <SocialIcon className="social" url="https://www.facebook.com/trueplumb.tn" />
         <SocialIcon className="social" url="https://instagram.com/true.plumb?utm_medium=copy_link" />
+        <SocialIcon className="social" url="mailto:office@trueplumbtn.com" />
         </div>
        
         <Button className="callnow" variant="success" href="tel:+1-423-305-8212">
