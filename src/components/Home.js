@@ -20,7 +20,7 @@ function Home() {
         <h5 className="info1">Licensed, experienced, locally owned and trusted.</h5>
         <h5 className="info1">Free estimates.</h5>
         <h5 className="info3">Schedule an appointment now.</h5>
-        <Button variant="secondary">Call Now!</Button>{" "}
+        <Button variant="success">Call Now!</Button>{" "}
       </div>
       <Carousel className="carousel">
   <Carousel.Item>
