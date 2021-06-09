@@ -27,7 +27,7 @@ function Home() {
         <h5 className="info1">Free estimates.</h5>
         <h5 className="info3">Schedule an appointment now!</h5>
         <Button className="callnow" variant="success" href="tel:+1-423-305-8212">
-          Call Now!
+          Call Now
         </Button>{" "}
       </div>
       <Carousel className="carousel">
