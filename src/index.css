@@ -25,16 +25,27 @@ code {
 .info1 {
   font-size: 15px;
 }
+
+.info3{
+  padding-top: 20px;
+}
 .services {
   font-size: 20px;
 }
 
 .button3.btn.btn-success {
   margin-bottom: 40px;
+  background-color: rgb(108, 213, 4);
+  color: black;
 }
 
 .serviceslist {
   padding-left: 10px;
   font-size: 15px;
   list-style-type: none;
+}
+
+.callnow.btn.btn-success{
+  background-color: rgb(108, 213, 4);
+  color: black;
 }

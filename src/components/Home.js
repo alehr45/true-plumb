@@ -17,7 +17,7 @@ function Home() {
         <Image className="pic" src={logo} />
         <div></div>
         <div class="info"></div>
-        <h1 className="call">Call True Plumb First!</h1>
+        <h1 className="call">Call True Plumb First</h1>
         <h5 className="info1">
           Expert and reliable plumbing service in Chattanooga.{" "}
         </h5>
@@ -25,7 +25,7 @@ function Home() {
           Licensed, experienced, locally owned and trusted.
         </h5>
         <h5 className="info1">Free estimates.</h5>
-        <h5 className="info3">Schedule an appointment now.</h5>
+        <h5 className="info3">Schedule an appointment now!</h5>
         <Button className="callnow" variant="success" href="tel:+1-423-305-8212">
           Call Now!
         </Button>{" "}
