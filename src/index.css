@@ -12,10 +12,15 @@ code {
     monospace;
 }
 
-.pic{
-  width: 650px;
+.call{
+  font-weight: 800;
+  font-size: 30px;
 }
 
-h5{
-  font-size: 10px;
+.carousel {
+  padding-top: 25px;
+}
+
+.info1 {
+  font-size: 15px;
 }
