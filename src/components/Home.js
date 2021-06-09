@@ -5,6 +5,7 @@ import pic1 from "../images/trueplumb-image1.jpeg";
 import pic2 from "../images/trueplumb-image2.jpeg";
 import pic3 from "../images/trueplumb-image3.jpeg";
 import pic4 from "../images/trueplumb-image4.jpeg";
+import coupon from "../images/coupon.pdf"
 
 function Home() {
   return (
@@ -20,8 +21,9 @@ function Home() {
         <h5 className="info1">Licensed, experienced, locally owned and trusted.</h5>
         <h5 className="info1">Free estimates.</h5>
         <h5 className="info3">Schedule an appointment now.</h5>
-        <Button variant="success">Call Now!</Button>{" "}
+        <Button className="callnow" variant="success">Call Now!</Button>{" "}
       </div>
+      
       <Carousel className="carousel">
   <Carousel.Item>
     <img
@@ -72,7 +74,13 @@ function Home() {
   </Carousel.Item>
 </Carousel>
 
-
+<a href={coupon} target="_blank" rel="noreferrer">
+      <Button className="button3" variant="warning">
+            
+       
+            <span>Free $15 Coupon</span>
+            </Button>
+        </a>
      
       </div>
     
