@@ -37,9 +37,11 @@ code {
 }
 
 .button3.btn.btn-success {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   background-color: rgb(108, 213, 4);
-  color: black;
+  color: rgb(58, 58, 58);
+  height: 50px;
+  width: 100%;
 }
 
 .serviceslist {
@@ -57,4 +59,8 @@ code {
 .social {
   margin-top: 10px;
   margin: 5px;
+}
+
+.pic{
+  width: 100%;
 }

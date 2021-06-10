@@ -2,7 +2,7 @@ import React from "react";
 import { Image, Button, Carousel } from "react-bootstrap";
 import { SocialIcon } from 'react-social-icons';
 import Footer from '../components/Footer';
-import logo from "../images/logo1.png";
+import logo from "../images/trueplumblogo.png";
 import pic1 from "../images/trueplumb-image1.jpeg";
 import pic2 from "../images/trueplumb-image2.jpeg";
 import pic3 from "../images/trueplumb-image3.jpeg";
@@ -108,7 +108,7 @@ function Home() {
 
     <a href={coupon} target="_blank" rel="noreferrer">
         <Button className="button3" variant="success">
-          <span>Free $15 Coupon</span>
+          <span> Coupon for $15 off!</span>
         </Button>
       </a>
       <Footer/>
