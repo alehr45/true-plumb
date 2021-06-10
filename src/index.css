@@ -32,15 +32,15 @@ code {
   padding-top: 20px;
 }
 .services {
-  font-size: 20px;
+  font-size: 30px;
  font-weight: 700;
 }
 
-.button3.btn.btn-success {
+.button3.btn.btn-warning {
   margin-top: 10px;
   margin-bottom: 5px;
-  background-color:  #27ff59;
-  color: rgb(58, 58, 58);
+
+  color: rgb(60, 60, 60);
   
 }
 
@@ -51,10 +51,10 @@ code {
   padding-bottom: 30px;
 }
 
-.callnow.btn.btn-success{
+.callnow.btn.btn-warning{
   margin-top: 20px;
-  background-color:#27ff59;
-  color: rgb(58, 58, 58);
+
+  color: rgb(60, 60, 60);
 }
 
 .social {
@@ -64,4 +64,5 @@ code {
 
 .pic{
   width: 100%;
+
 }

@@ -41,14 +41,14 @@ function Home() {
         <div>
           <Button
             className="callnow"
-            variant="success"
+            variant="warning"
             href="tel:+1-423-305-8212"
           >
             Schedule an Appointment
           </Button>{" "}
         </div>
         <div>
-          <Button className="button3" variant="success">
+          <Button className="button3" variant="warning">
             <span>Coupon for $15 off</span>
           </Button>
         </div>
@@ -122,19 +122,19 @@ function Home() {
         </Carousel.Item>
       </Carousel>
 
-      <h5 className="services">Services Available</h5>
+      <h5 className="services">Services Available:</h5>
       <ul className="serviceslist">
-        <li>Toilet Repair</li>
+      <li>Remodels</li>
+      <li>Leak repair</li>
+      <li>Toilet Repair</li>
+      <li>Sink Repair</li>
         <li>Shower Repair</li>
-        <li>Tankless Water Heaters Installation/Repair</li>
-        <li>Water Heater Tank Repair/Replacement</li>
-        <li>Sink Repair</li>
         <li>Faucet Repair</li>
         <li>Garbage Disposals</li>
         <li>Water Main Replacement</li>
-        <li>Remodels</li>
+        <li>Water Heater Tank Repair/Replacement</li>
         <li>Complete Plumbing repairs & solutions</li>
-        <li>Leak repair</li>
+        <li>Tankless Water Heaters Installation/Repair</li>
       </ul>
 
       <a href={coupon} target="_blank" rel="noreferrer"></a>
