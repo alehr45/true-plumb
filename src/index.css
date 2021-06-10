@@ -36,8 +36,9 @@ code {
 
 .button3.btn.btn-success{
   margin-top: 10px;
-  margin-bottom: 30px;
-  color: white;
+  margin-bottom: 70px;
+  background-color: #34F92F;
+  color: rgb(33, 33, 33);
 }
 
 .serviceslist {
@@ -48,7 +49,8 @@ code {
 
 .callnow.btn.btn-success{
   margin-top: 10px;
-  color: white;
+  background-color: #34F92F;
+  color: rgb(33, 33, 33);
 }
 
 .social {
