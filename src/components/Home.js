@@ -38,21 +38,7 @@ function Home() {
           />
           <SocialIcon className="social" url="mailto:office@trueplumbtn.com" />
         </div>
-        <div>
-          <Button
-            className="callnow"
-            variant="warning"
-            href="tel:+1-423-305-8212"
-          >
-            Schedule an Appointment
-          </Button>{" "}
-        </div>
-        <div>
-          <Button className="button3" variant="warning">
-            <span>Coupon for $15 off</span>
-          </Button>
-        </div>
-      </div>
+      
       <Carousel className="carousel">
         <Carousel.Item>
           <img className="d-block w-100" src={pic1} alt="First slide" />
@@ -139,6 +125,21 @@ function Home() {
 
       <a href={coupon} target="_blank" rel="noreferrer"></a>
     </div>
+    <div>
+          <Button
+            className="callnow"
+            variant="success"
+            href="tel:+1-423-305-8212"
+          >
+            Schedule an Appointment Now!
+          </Button>{" "}
+        </div>
+        <div>
+          <Button className="button3" variant="success">
+            <span>Coupon for $15 off</span>
+          </Button>
+        </div>
+      </div>
   );
 }
 export default Home;

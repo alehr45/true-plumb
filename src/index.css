@@ -12,9 +12,7 @@ code {
     monospace;
 }
 
-
 .call {
- 
   padding-bottom: 10px;
   font-weight: 600;
   font-size: 20px;
@@ -28,33 +26,29 @@ code {
   font-size: 15px;
 }
 
-.info3{
+.info3 {
   padding-top: 20px;
 }
 .services {
   font-size: 30px;
- font-weight: 700;
+  font-weight: 700;
 }
 
-.button3.btn.btn-warning {
+.button3.btn.btn-success{
   margin-top: 10px;
-  margin-bottom: 5px;
-
-  color: rgb(60, 60, 60);
-  
+  margin-bottom: 30px;
+  color: white;
 }
 
 .serviceslist {
   padding-left: 10px;
   font-size: 15px;
   list-style-type: none;
-  padding-bottom: 30px;
 }
 
-.callnow.btn.btn-warning{
-  margin-top: 20px;
-
-  color: rgb(60, 60, 60);
+.callnow.btn.btn-success{
+  margin-top: 10px;
+  color: white;
 }
 
 .social {
@@ -62,7 +56,6 @@ code {
   margin: 5px;
 }
 
-.pic{
+.pic {
   width: 100%;
-
 }
