@@ -40,8 +40,7 @@ code {
   margin-bottom: 20px;
   background-color: rgb(108, 213, 4);
   color: rgb(58, 58, 58);
-  height: 50px;
-  width: 100%;
+  
 }
 
 .serviceslist {
@@ -53,7 +52,7 @@ code {
 .callnow.btn.btn-success{
   margin-top: 20px;
   background-color: rgb(108, 213, 4);
-  color: black;
+  color: rgb(58, 58, 58);
 }
 
 .social {
