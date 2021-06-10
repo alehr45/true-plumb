@@ -38,7 +38,7 @@ code {
 
 .button3.btn.btn-success {
   margin-bottom: 20px;
-  background-color: rgb(108, 213, 4);
+  background-color:  #34F92F;
   color: rgb(58, 58, 58);
   
 }
@@ -47,11 +47,12 @@ code {
   padding-left: 10px;
   font-size: 15px;
   list-style-type: none;
+  padding-bottom: 30px;
 }
 
 .callnow.btn.btn-success{
   margin-top: 20px;
-  background-color: rgb(108, 213, 4);
+  background-color: #34F92F;
   color: rgb(58, 58, 58);
 }
 
