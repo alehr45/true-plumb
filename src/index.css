@@ -14,7 +14,7 @@ code {
 
 
 .call {
-  padding-top: 20px;
+ 
   padding-bottom: 10px;
   font-weight: 600;
   font-size: 20px;
@@ -37,8 +37,9 @@ code {
 }
 
 .button3.btn.btn-success {
-  margin-bottom: 20px;
-  background-color:  #34F92F;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background-color:  #27ff59;
   color: rgb(58, 58, 58);
   
 }
@@ -52,7 +53,7 @@ code {
 
 .callnow.btn.btn-success{
   margin-top: 20px;
-  background-color: #34F92F;
+  background-color:#27ff59;
   color: rgb(58, 58, 58);
 }
 
