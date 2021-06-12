@@ -123,7 +123,7 @@ function Home() {
         <li>Tankless Water Heaters Installation/Repair</li>
       </ul>
 
-      <a href={coupon} target="_blank" rel="noreferrer"></a>
+      
     </div>
     <div>
           <Button
@@ -135,7 +135,8 @@ function Home() {
           </Button>{" "}
         </div>
         <div>
-          <Button className="button3" variant="success">
+          <Button className="button3" variant="success" href={coupon} target="_blank" rel="noreferrer">
+      
             <span>Coupon for $15 off</span>
           </Button>
         </div>
