@@ -18,7 +18,7 @@ code {
 }
 
 .carousel {
-  padding: 20px;
+  padding: 30px;
 }
 
 .info1 {
@@ -63,13 +63,10 @@ code {
   background-color: yellow;
 }
 
-.social-svg {
- padding: 5px;
-}
-
 .pic {
   width: 100%;
 }
+
 
 .footer{
   font-size: 15px;
