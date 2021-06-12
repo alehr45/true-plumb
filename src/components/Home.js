@@ -134,7 +134,7 @@ function Home() {
         <div>
           <h1 className="footer">&copy; 2021 True Plumb, Rights Reserved</h1>
         </div>
-        <div>
+        <div className="icons">
           <SocialIcon
             className="social"
             url="https://www.facebook.com/trueplumb.tn"
