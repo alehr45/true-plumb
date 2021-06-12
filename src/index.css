@@ -13,6 +13,7 @@ code {
 }
 
 .call {
+  padding-top: 20px;
   padding-bottom: 10px;
   font-weight: 600;
   font-size: 20px;
@@ -36,9 +37,14 @@ code {
 
 .button3.btn.btn-success{
   margin-top: 10px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   background-color: #34F92F;
   color: rgb(33, 33, 33);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.button3.btn.btn-success:hover{
+  background-color: yellow;
 }
 
 .serviceslist {
@@ -48,16 +54,26 @@ code {
 }
 
 .callnow.btn.btn-success{
+  border-radius: 10px 10px 10px 10px;
   margin-top: 10px;
   background-color: #34F92F;
   color: rgb(33, 33, 33);
 }
 
-.social {
-  margin-top: 10px;
-  margin: 5px;
+.callnow.btn.btn-success:hover{
+  background-color: yellow;
+}
+
+.social-svg {
+ padding: 5px;
+
 }
 
 .pic {
   width: 100%;
+}
+
+.footer{
+  font-size: 15px;
+  padding: 5px;
 }
